@@ -8,14 +8,13 @@ public class ParallaxScroller : MonoBehaviour
     public float[] scrollSpeed;
     public Transform[] layer;
     public List<Vector2> parallaxPos = new List<Vector2>();
-    private float width = 16f;
+    private float width = 18f;
 
     // Awake is called when the script instance is being loaded
     void Awake()
     {
         for (int i = 0; i < layer.Length; i++)
         {
-            layer[i] = GetComponent<Transform>();
             parallaxPos.Add(layer[i].position);
         }
     }
