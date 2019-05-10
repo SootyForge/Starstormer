@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BgScroller : MonoBehaviour
+public class RefBgScroller : MonoBehaviour
 {
     public float moveSpeed = 1f;
     public bool isRepeating = true;
