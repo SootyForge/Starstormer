@@ -5,26 +5,29 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
     public float moveSpeed;
-    public Vector3 pos;
 
     private float inputV;
+    private Rigidbody2D playerRigi;
+    private Vector2 pos;
+    
 
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
-        pos = Vector3.zero;
+        playerRigi = GetComponent<Rigidbody2D>();
+        pos = transform.position;
     }
 
     // Update is called every frame, if the MonoBehaviour is enabled
     void Update()
     {
-        inputV = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        inputV = Input.GetAxis("Vertical") * moveSpeed;
         Move(inputV);
     }
 
     public void Move(float inputV)
     {
-        pos = new Vector3(0, inputV, 0);
-        transform.position += pos;
+        Vector2 pos = new Vector2(0, inputV);
+        playerRigi.velocity = pos;
     }
 }
