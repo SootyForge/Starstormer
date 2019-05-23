@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Bullets : MonoBehaviour
+namespace MetalSlug
 {
+  public class MS_Bullets : MonoBehaviour
+  {
 
     public GameObject Bullet;
     public GameObject Bullet_Boss;
 
-    public Enemy Enemy;
-    public Health Hp;
+    // public Enemy Enemy;
+    // public Health Hp;
     public Animator anim;
 
     //Speed of bullets
@@ -22,7 +24,7 @@ public class Bullets : MonoBehaviour
 
     public void Active()
     {
-        this.gameObject.SetActive(true);
+      this.gameObject.SetActive(true);
     }
 
     void Update()
@@ -33,15 +35,16 @@ public class Bullets : MonoBehaviour
     public void Fire()
     {
 
-        Rigidbody2D bulletMove = GetComponent<Rigidbody2D>();
-        bulletMove.velocity = new Vector2(transform.right.x * Player_Bullet_speed, transform.right.y);
-        Destroy(gameObject, 1f);
+      Rigidbody2D bulletMove = GetComponent<Rigidbody2D>();
+      bulletMove.velocity = new Vector2(transform.right.x * Player_Bullet_speed, transform.right.y);
+      Destroy(gameObject, 1f);
 
     }
 
     //le transforum du position de la ball
     public void Fire_Boss()
     {
-        Rigidbody2D bulletMove = GetComponent<Rigidbody2D>();
+      Rigidbody2D bulletMove = GetComponent<Rigidbody2D>();
     }
+  } 
 }
