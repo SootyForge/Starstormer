@@ -1,41 +1,30 @@
 fileFormatVersion: 2
-guid: 684cbfbacce121844a961e572695e74d
+guid: 58f821557a25fb8488d431a3bb5eb6f0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: UFO_0
-    21300002: UFO_1
-    21300004: UFO_2
-    21300006: UFO_3
-    21300008: UFO_4
-    21300010: UFO_5
-    21300012: UFO_6
-    21300014: UFO_7
-    21300016: UFO_8
-    21300018: UFO_9
-    21300020: UFO_10
-    21300022: UFO_11
-    21300024: UFO_Charge_4
-    21300026: UFO_Charge_5
-    21300028: UFO_Attack_0
-    21300030: UFO_Attack_1
-    21300032: UFO_Attack_2
-    21300034: UFO_Attack_3
-    21300036: UFO_Attack_4
-    21300038: UFO_Attack_5
-    21300040: UFO_Charge_0
-    21300042: UFO_Charge_1
-    21300044: UFO_Charge_2
-    21300046: UFO_Charge_3
-    21300048: UFO_Charge_6
-    21300050: UFO_Charge_7
-    21300052: UFO_Charge_8
-    21300054: UFO_Charge_9
-    21300056: UFO_Charge_10
-    21300058: UFO_Charge_11
-    21300060: UFO_Charge_12
-    21300062: UFO_Attack_6
-    21300064: UFO_Attack_7
-    21300066: UFO_Attack_8
+    21300000: Mine_Explosion1_0
+    21300002: Mine_Explosion1_1
+    21300004: Mine_Explosion1_2
+    21300006: Mine_Explosion1_3
+    21300008: Mine_Explosion1_4
+    21300010: Mine_Explosion1_5
+    21300012: Mine_Explosion1_6
+    21300014: Mine_Explosion1_7
+    21300016: Mine_Explosion1_8
+    21300018: Mine_Explosion1_9
+    21300020: Mine_Explosion2_0
+    21300022: Mine_Explosion2_1
+    21300024: Mine_Explosion2_2
+    21300026: Mine_Explosion2_3
+    21300028: Mine_Explosion2_4
+    21300030: Mine_Explosion2_5
+    21300032: Mine_Explosion2_6
+    21300034: Mine_Explosion2_7
+    21300036: Mine_Explosion2_8
+    21300038: Mine_Explosion2_9
+    21300040: Mine_Explosion2_10
+    21300042: Mine_Explosion2_11
+    21300044: Mine_Explosion2_12
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -118,533 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UFO_0
+      name: Mine_Explosion1_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 215
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29c50db6c1e0b684ca55d632a3f2c1df
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_1
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 215
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0556354e3e7afd64db6ca695d676255c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_2
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 215
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d499b5b4a98ea147aa0218641cec615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_3
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 215
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e73c9ab4490db043b20062c635fc197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_4
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 214
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08b740c00fb02ee489edeca10053febc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_5
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 214
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a861adba846b447498e9fccc6e494ffc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_6
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 175
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3e03c543615248478ceafb41457f014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_7
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 175
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d3581970e0e7c741ab3ce2d919a4171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_8
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 175
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dbf06ae599fcd44e8b9b915a5cc3b0f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_9
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 175
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3166935b6b2d2c44cacde21a8b2eed99
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_10
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 176
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1282f134614627458ef98f121b60bb7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_11
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 176
-        width: 53
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3406939f2d17724db9737566bce32e6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_4
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 136
-        width: 24
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ee97bc0a8edc5045ae1979d2eb405d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_5
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 134
-        width: 20
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 920d2c232a0e5c2429880db73d8c0bee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_0
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 134
-        width: 4
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38a9ebe8fc8ba564ea76ffa0713a06d9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_1
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 94
-        width: 4
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b95fc70955e37374992939016bfbf613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_2
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 86
-        width: 4
-        height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2aad8b9c69a7074b8b830e00134b8c9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_3
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 77
-        width: 4
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 575c3bc147c8a204ab1487aa2b3b63a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_4
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 71
-        width: 1
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4baffe51bef03e74a84df2cdb899eda8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_5
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 8
-        width: 4
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf7854f569742544da332b10485bde3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_0
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 147
-        width: 36
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afe7c1ce20875bd46b1321c4e13e34f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_1
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 147
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd86eddd57114cb4cbe1bff77d5842f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_2
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 147
-        width: 26
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e69d9b28f721045997f7c339767b3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_3
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 141
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 211c63a4db06c054e930f50303ec5042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_6
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 88
-        width: 28
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd94bf27d588bcd4d9d7a659405d7a8f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_7
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 56
-        width: 38
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79e60dae12e1b55439409df05ae26ed5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_8
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 67
+        x: 5
+        y: 57
         width: 44
-        height: 58
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,138 +121,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b09d277b83172848afc6b4911481e25
+      spriteID: d3e9e77a7eeda664ab0051331ec78542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_Charge_9
+      name: Mine_Explosion1_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 91
-        width: 8
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0f7bb2e6987ede418f148bd6f6ab035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_10
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 94
-        width: 8
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de66b4765ea7b942b107555ff6b5fe3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_11
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 112
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7edb89e201d1c0c4fa561bd42abaf33c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_12
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 117
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a71070666ed5664da4f8f0e8a271037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_6
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 64
-        width: 4
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c30fcc29a393e8489ca4714ea57c8b2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_7
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 84
-        width: 3
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02ea50bda5dab3f45adf08f06ff7a5fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_8
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 120
-        width: 2
+        x: 52
+        y: 55
+        width: 44
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -792,7 +141,427 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ed6e66e6a848a4cbd158ff209ff6fd
+      spriteID: 6bc0cc09d289f104187408eb3c3e86ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 55
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab10e5490ca7c4997aad56ef205dd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 55
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7867ec4560603974aae3b36be447dec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 55
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b968dab1e15f46b1745602a31ac0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 55
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cc0d1727c3c34d81af90fb352644a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 56
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7456ae4cabc41943ad85bf5b68fecec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 58
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6bd1a2e21bb4b46b4f66a176fb58a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 65
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86333b4edc0299142821bf3fd694430d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion1_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 69
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9e75a942d427f40ac75008e250351c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 15
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11992d0bb3163a543a824f5108b4c093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 14
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae29502ead0a545a92d8993b6a3c1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4515ea048441ae41824a1d41537ef73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 8
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c2f700afc5ddb4ca9b23a77c3a2b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11cdbf1c165ae447a9b675667e20644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c051b6e56f764ba8db40fb806a16a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d78a063d675d4eb3263a6456b14ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 13
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a87d922f9eeeaf4e843bbe933fc80d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 12
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bae8163d333fa4eb2690ec82c393aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 13
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34268be9b107b1347af7cb317558506f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 13
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05152485287920f42b0211f71e3efb2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 13
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9644ac1fe73f34db527d8c391700b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_Explosion2_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 13
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d468c15e463dd41a1163869df085c4
       vertices: []
       indices: 
       edges: []
@@ -800,7 +569,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c75c82500050f8f439d3eeba092d309a
+    spriteID: f171b33359991af4e9705f63cf80b629
     vertices: []
     indices: 
     edges: []

@@ -1,41 +1,35 @@
 fileFormatVersion: 2
-guid: 684cbfbacce121844a961e572695e74d
+guid: 71e2f52c0745dac4992801fa5076ee61
 TextureImporter:
   fileIDToRecycleName:
-    21300000: UFO_0
-    21300002: UFO_1
-    21300004: UFO_2
-    21300006: UFO_3
-    21300008: UFO_4
-    21300010: UFO_5
-    21300012: UFO_6
-    21300014: UFO_7
-    21300016: UFO_8
-    21300018: UFO_9
-    21300020: UFO_10
-    21300022: UFO_11
-    21300024: UFO_Charge_4
-    21300026: UFO_Charge_5
-    21300028: UFO_Attack_0
-    21300030: UFO_Attack_1
-    21300032: UFO_Attack_2
-    21300034: UFO_Attack_3
-    21300036: UFO_Attack_4
-    21300038: UFO_Attack_5
-    21300040: UFO_Charge_0
-    21300042: UFO_Charge_1
-    21300044: UFO_Charge_2
-    21300046: UFO_Charge_3
-    21300048: UFO_Charge_6
-    21300050: UFO_Charge_7
-    21300052: UFO_Charge_8
-    21300054: UFO_Charge_9
-    21300056: UFO_Charge_10
-    21300058: UFO_Charge_11
-    21300060: UFO_Charge_12
-    21300062: UFO_Attack_6
-    21300064: UFO_Attack_7
-    21300066: UFO_Attack_8
+    21300000: Explosion_Normal_Big_0
+    21300002: Explosion_Normal_Big_1
+    21300004: Explosion_Normal_Big_2
+    21300006: Explosion_Normal_Big_3
+    21300008: Explosion_Normal_Big_4
+    21300010: Explosion_Normal_Big_5
+    21300012: Explosion_Normal_Big_6
+    21300014: Explosion_Normal_Big_7
+    21300016: Explosion_Normal_Big_8
+    21300018: Explosion_Normal_Big_9
+    21300020: Explosion_Normal_Big_10
+    21300022: Explosion_Normal_Big_11
+    21300024: Explosion_Normal_Big_12
+    21300026: Explosion_Normal_Big_13
+    21300028: Explosion_Normal_Big_14
+    21300030: Explosion_Normal_Big_15
+    21300032: Explosion_Normal_Big_16
+    21300034: Explosion_Normal_Big_17
+    21300036: Explosion_Normal_Big_18
+    21300038: Explosion_Normal_Big_19
+    21300040: Explosion_Normal_Big_20
+    21300042: Explosion_Normal_Big_21
+    21300044: Explosion_Normal_Big_22
+    21300046: Explosion_Normal_Big_23
+    21300048: Explosion_Normal_Big_24
+    21300050: Explosion_Normal_Big_25
+    21300052: Explosion_Normal_Big_26
+    21300054: Explosion_Normal_Big_27
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -118,681 +112,561 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UFO_0
+      name: Explosion_Normal_Big_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 215
-        width: 53
-        height: 30
+        x: 4
+        y: 257
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29c50db6c1e0b684ca55d632a3f2c1df
+      spriteID: c368728702d337f448558d1d597616e6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_1
+      name: Explosion_Normal_Big_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 215
-        width: 53
-        height: 30
+        x: 88
+        y: 257
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0556354e3e7afd64db6ca695d676255c
+      spriteID: ea157a6350028b341acaa73cc6d0e333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_2
+      name: Explosion_Normal_Big_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 215
-        width: 53
-        height: 30
+        x: 172
+        y: 259
+        width: 73
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d499b5b4a98ea147aa0218641cec615
+      spriteID: f7036ab7a88ad744e97728ef63aa4305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_3
+      name: Explosion_Normal_Big_3
       rect:
         serializedVersion: 2
-        x: 174
-        y: 215
-        width: 53
-        height: 30
+        x: 249
+        y: 258
+        width: 77
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e73c9ab4490db043b20062c635fc197
+      spriteID: 9e506c19692679748a873ae01ca093d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_4
+      name: Explosion_Normal_Big_4
       rect:
         serializedVersion: 2
-        x: 230
-        y: 214
-        width: 53
-        height: 31
+        x: 330
+        y: 258
+        width: 80
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b740c00fb02ee489edeca10053febc
+      spriteID: e64305aaa7e5a904fa30baa2c2922f48
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_5
+      name: Explosion_Normal_Big_5
       rect:
         serializedVersion: 2
-        x: 286
-        y: 214
-        width: 54
-        height: 31
+        x: 414
+        y: 259
+        width: 78
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a861adba846b447498e9fccc6e494ffc
+      spriteID: 1c88b0a9b43f7384eb6cdd18546c9b04
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_6
+      name: Explosion_Normal_Big_6
       rect:
         serializedVersion: 2
-        x: 6
-        y: 175
-        width: 53
-        height: 31
+        x: 496
+        y: 259
+        width: 79
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3e03c543615248478ceafb41457f014
+      spriteID: 87e29e4fa63e47f4898684cd0d5e9f7b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_7
+      name: Explosion_Normal_Big_7
       rect:
         serializedVersion: 2
-        x: 62
-        y: 175
-        width: 53
-        height: 31
+        x: 4
+        y: 170
+        width: 79
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d3581970e0e7c741ab3ce2d919a4171
+      spriteID: 128eb1dfb0e00d04582c0f398dabe187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_8
+      name: Explosion_Normal_Big_8
       rect:
         serializedVersion: 2
-        x: 118
-        y: 175
-        width: 53
-        height: 31
+        x: 87
+        y: 170
+        width: 75
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dbf06ae599fcd44e8b9b915a5cc3b0f
+      spriteID: 5162bce15fba9c043908e2cf6036b011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_9
+      name: Explosion_Normal_Big_9
       rect:
         serializedVersion: 2
-        x: 174
-        y: 175
-        width: 53
-        height: 31
+        x: 166
+        y: 170
+        width: 75
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3166935b6b2d2c44cacde21a8b2eed99
+      spriteID: 42ce3bdd441e1a746a83a2a8868708ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_10
+      name: Explosion_Normal_Big_10
       rect:
         serializedVersion: 2
-        x: 230
-        y: 176
-        width: 53
-        height: 30
+        x: 245
+        y: 170
+        width: 75
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1282f134614627458ef98f121b60bb7
+      spriteID: f5409ccb6bf903a438d566709e68a6e7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_11
+      name: Explosion_Normal_Big_11
       rect:
         serializedVersion: 2
-        x: 286
-        y: 176
-        width: 53
-        height: 30
+        x: 324
+        y: 170
+        width: 75
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3406939f2d17724db9737566bce32e6
+      spriteID: 64f96c328b9ddb14989e0710a6f765f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_Charge_4
+      name: Explosion_Normal_Big_12
       rect:
         serializedVersion: 2
-        x: 130
-        y: 136
-        width: 24
-        height: 29
+        x: 403
+        y: 172
+        width: 74
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee97bc0a8edc5045ae1979d2eb405d2
+      spriteID: c5d4ac4e838d28b4c8947094d22079ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_Charge_5
+      name: Explosion_Normal_Big_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 171
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223d0514d38f8644bb5255e044a03337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 80
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec421ad92906b84589c2fd037972f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13221089feaa346b017c5a42eb4e9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_16
       rect:
         serializedVersion: 2
         x: 157
-        y: 134
-        width: 20
-        height: 31
+        y: 85
+        width: 67
+        height: 79
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 920d2c232a0e5c2429880db73d8c0bee
+      spriteID: 37c806156aff1a448a4f756d0d9f0abc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_Attack_0
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 134
-        width: 4
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38a9ebe8fc8ba564ea76ffa0713a06d9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_1
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 94
-        width: 4
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b95fc70955e37374992939016bfbf613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_2
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 86
-        width: 4
-        height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2aad8b9c69a7074b8b830e00134b8c9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_3
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 77
-        width: 4
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 575c3bc147c8a204ab1487aa2b3b63a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_4
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 71
-        width: 1
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4baffe51bef03e74a84df2cdb899eda8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_5
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 8
-        width: 4
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf7854f569742544da332b10485bde3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_0
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 147
-        width: 36
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afe7c1ce20875bd46b1321c4e13e34f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_1
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 147
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd86eddd57114cb4cbe1bff77d5842f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_2
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 147
-        width: 26
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e69d9b28f721045997f7c339767b3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_3
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 141
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 211c63a4db06c054e930f50303ec5042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_6
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 88
-        width: 28
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd94bf27d588bcd4d9d7a659405d7a8f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_7
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 56
-        width: 38
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79e60dae12e1b55439409df05ae26ed5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_8
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 67
-        width: 44
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b09d277b83172848afc6b4911481e25
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_9
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 91
-        width: 8
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0f7bb2e6987ede418f148bd6f6ab035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_10
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 94
-        width: 8
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de66b4765ea7b942b107555ff6b5fe3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_11
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 112
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7edb89e201d1c0c4fa561bd42abaf33c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Charge_12
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 117
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a71070666ed5664da4f8f0e8a271037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_6
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 64
-        width: 4
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c30fcc29a393e8489ca4714ea57c8b2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UFO_Attack_7
+      name: Explosion_Normal_Big_17
       rect:
         serializedVersion: 2
         x: 228
         y: 84
-        width: 3
-        height: 80
+        width: 67
+        height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ea50bda5dab3f45adf08f06ff7a5fe
+      spriteID: 10e725e592836404283cbcec775a1b4f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UFO_Attack_8
+      name: Explosion_Normal_Big_18
       rect:
         serializedVersion: 2
-        x: 234
-        y: 120
-        width: 2
-        height: 44
+        x: 299
+        y: 85
+        width: 67
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ed6e66e6a848a4cbd158ff209ff6fd
+      spriteID: 0d75aa201cd3340468f6e7493b2f6e6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 84
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea909fa25572184e82715d63661e071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_20
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 88
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803fc5a44b00e14a922e93c5d71396b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_21
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 88
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf110fc2c7e334439aab8efd8544415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e76a0343698e498f1d3a564f432b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 7
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d798fe24ae664c950babed1262e29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 15
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc2451f5a67aeb46b9043376eb27f86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 16
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9784712c485a02489bdbb3e2b24d88e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 19
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a73efb7cf08c746a3f16d591b3123e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Normal_Big_27
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 25
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4b4ed04f02114d80c242513df95f1
       vertices: []
       indices: 
       edges: []
@@ -800,7 +674,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c75c82500050f8f439d3eeba092d309a
+    spriteID: c1344b1f4508ae64facc2738c7a7b251
     vertices: []
     indices: 
     edges: []

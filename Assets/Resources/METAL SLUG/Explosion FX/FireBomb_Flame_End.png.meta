@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: 5cc4227226014134fa61353da5fa8f59
+guid: 43d2fc0cd5e8f7348a7e44745e40c5f5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 1
-    21300002: 2
-    21300004: 3
-    21300006: 4
-    21300008: 5
-    21300010: 6
-    21300012: 7
-    21300014: 8
-    21300016: 9
-    21300018: 0
+    21300000: FireBomb_Flame_End_0
+    21300002: FireBomb_Flame_End_1
+    21300004: FireBomb_Flame_End_2
+    21300006: FireBomb_Flame_End_3
+    21300008: FireBomb_Flame_End_4
+    21300010: FireBomb_Flame_End_5
+    21300012: FireBomb_Flame_End_6
+    21300014: FireBomb_Flame_End_7
+    21300016: FireBomb_Flame_End_8
+    21300018: FireBomb_Flame_End_9
+    21300020: FireBomb_Flame_End_11
+    21300022: FireBomb_Flame_End_10
+    21300024: FireBomb_Flame_End_12
+    21300026: FireBomb_Flame_End_13
+    21300028: FireBomb_Flame_End_14
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -94,201 +99,301 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1
+      name: FireBomb_Flame_End_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 21
-        height: 48
+        x: 6
+        y: 67
+        width: 40
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74045012234e88498ef039a4968b023
+      spriteID: aff94355410d2ed42af34eba813c74e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: FireBomb_Flame_End_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 5
+        x: 49
+        y: 66
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab31fc26cac4c46aef122b4d44805c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 66
         width: 44
-        height: 48
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2dec456ab9989b4c93056a2caa38b99
+      spriteID: 063a79840d50c2d4a97b2f8e71fee5f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: FireBomb_Flame_End_3
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
+        x: 141
+        y: 66
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499226e218f6028488e731a3a1594e75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 66
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069d85e028addd4abd6c50c42643144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 66
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f049ea42b738154cafebbe4b4b87738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 66
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17abd40d5730c9347b975cc5a9bcb38f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 66
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbbff4ad8a8f3a4188a3a659ddf60ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBomb_Flame_End_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 66
         width: 44
-        height: 48
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc84fa8e1ef23e54aad655011aeb7d46
+      spriteID: 3919e61832b098e4ba8ecb72604b52c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4
+      name: FireBomb_Flame_End_9
       rect:
         serializedVersion: 2
-        x: 121
-        y: 5
-        width: 44
-        height: 48
+        x: 433
+        y: 66
+        width: 39
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f85fb5c1a5cee4d429291d512034e97c
+      spriteID: ef61bdcde8a12504ba2023bb9a14aaef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: FireBomb_Flame_End_11
       rect:
         serializedVersion: 2
-        x: 168
-        y: 5
-        width: 44
-        height: 48
+        x: 515
+        y: 66
+        width: 42
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0ed5581248a3374293559dc855eb426
+      spriteID: 34ea6753eb56e35489a2a9fc93007e10
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6
+      name: FireBomb_Flame_End_10
       rect:
         serializedVersion: 2
-        x: 215
-        y: 5
-        width: 44
-        height: 48
+        x: 476
+        y: 66
+        width: 36
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6990476cec5cec4ebb70e814cd22799
+      spriteID: a057cd66a39aed4439ba051c2906d64f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7
+      name: FireBomb_Flame_End_12
       rect:
         serializedVersion: 2
-        x: 262
+        x: 5
         y: 5
-        width: 43
-        height: 48
+        width: 31
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53f0dd9f68f2054bb48d810e20bc4ac
+      spriteID: f36ff91442b9a024db83a494f1409a2d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8
+      name: FireBomb_Flame_End_13
       rect:
         serializedVersion: 2
-        x: 308
+        x: 39
         y: 5
-        width: 44
-        height: 48
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f155fb6bc49ce444fa0b2e16b3e7c32b
+      spriteID: 18edc77fa014c724d89c4834ba27b6a2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9
+      name: FireBomb_Flame_End_14
       rect:
         serializedVersion: 2
-        x: 355
+        x: 75
         y: 5
-        width: 44
-        height: 48
+        width: 33
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d981885e2dcbd3149b4a79ab6e71ade9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 0
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 5
-        width: 44
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d767e25114943d46ae531c5a4718c7c
+      spriteID: 51d74a942fbdaa149b2c5b1b0e88416d
       vertices: []
       indices: 
       edges: []
@@ -296,7 +401,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e7c56d81d9ccbde4d9f1eb3d6701d84c
+    spriteID: 7ac2c109f50c26441933a2be71e49428
     vertices: []
     indices: 
     edges: []

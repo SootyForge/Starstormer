@@ -1,17 +1,37 @@
 fileFormatVersion: 2
-guid: 5cc4227226014134fa61353da5fa8f59
+guid: de9c3ccc0f1c73147908a99973bdaec8
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 1
-    21300002: 2
-    21300004: 3
-    21300006: 4
-    21300008: 5
-    21300010: 6
-    21300012: 7
-    21300014: 8
-    21300016: 9
-    21300018: 0
+    21300000: BulletImpact_0
+    21300002: BulletImpact_1
+    21300004: BulletImpact_2
+    21300006: BulletImpact_3
+    21300008: BulletImpact_4
+    21300010: BulletImpact_5
+    21300012: BulletImpact_6
+    21300014: BulletImpact_7
+    21300016: BulletImpact_8
+    21300018: BulletImpact_9
+    21300020: W1MG_BulletImpact_0
+    21300022: W1MG_BulletImpact_1
+    21300024: W1MG_BulletImpact_2
+    21300026: W1MG_BulletImpact_3
+    21300028: W1MG_BulletImpact_4
+    21300030: W1MG_BulletImpact_5
+    21300032: W1MG_BulletImpact_6
+    21300034: W1MG_BulletImpact_7
+    21300036: W1MG_BulletImpact_8
+    21300038: W1MG_BulletImpact_9
+    21300040: W1MG_FX_Impact_0
+    21300042: W1MG_FX_Impact_1
+    21300044: W1MG_FX_Impact_2
+    21300046: W1MG_FX_Impact_3
+    21300048: W1MG_FX_Impact_4
+    21300050: W1MG_FX_Impact_5
+    21300052: W1MG_FX_Impact_6
+    21300054: W1MG_FX_Impact_7
+    21300056: W1MG_FX_Impact_8
+    21300058: W1MG_FX_Impact_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -94,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1
+      name: W1MG_FX_Impact_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 21
-        height: 48
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,19 +128,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74045012234e88498ef039a4968b023
+      spriteID: a1261b2ac4f9931429ebf24ee6080186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: W1MG_FX_Impact_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 5
-        width: 44
-        height: 48
+        x: 17
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +148,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2dec456ab9989b4c93056a2caa38b99
+      spriteID: d5ec5c0e1c6c5c94089edcd8c16ae750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: W1MG_FX_Impact_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
-        width: 44
-        height: 48
+        x: 34
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc84fa8e1ef23e54aad655011aeb7d46
+      spriteID: 3966148c313a37c4b93ddbc09cfe70c0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4
+      name: W1MG_FX_Impact_3
       rect:
         serializedVersion: 2
-        x: 121
-        y: 5
-        width: 44
-        height: 48
+        x: 51
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,19 +188,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f85fb5c1a5cee4d429291d512034e97c
+      spriteID: 5d46b00942a279342b7f53a3f08e1cb6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: W1MG_FX_Impact_4
       rect:
         serializedVersion: 2
-        x: 168
-        y: 5
-        width: 44
-        height: 48
+        x: 68
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0ed5581248a3374293559dc855eb426
+      spriteID: e7b1241c41b875c4b85bc9c95530500e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6
+      name: W1MG_FX_Impact_5
       rect:
         serializedVersion: 2
-        x: 215
-        y: 5
-        width: 44
-        height: 48
+        x: 85
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,19 +228,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6990476cec5cec4ebb70e814cd22799
+      spriteID: ca2afc328f6aa0b41bb30065ea976ce3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7
+      name: W1MG_FX_Impact_6
       rect:
         serializedVersion: 2
-        x: 262
-        y: 5
-        width: 43
-        height: 48
+        x: 102
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,19 +248,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53f0dd9f68f2054bb48d810e20bc4ac
+      spriteID: 27eca8d949ba60d4d9d4d1e17c610d80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8
+      name: W1MG_FX_Impact_7
       rect:
         serializedVersion: 2
-        x: 308
-        y: 5
-        width: 44
-        height: 48
+        x: 119
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,19 +268,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f155fb6bc49ce444fa0b2e16b3e7c32b
+      spriteID: 49f288dcb6f736949973a246a9553ebf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9
+      name: W1MG_FX_Impact_8
       rect:
         serializedVersion: 2
-        x: 355
-        y: 5
-        width: 44
-        height: 48
+        x: 136
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,19 +288,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d981885e2dcbd3149b4a79ab6e71ade9
+      spriteID: 21f0b3e5b8ed1f3468afd94da08ae532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0
+      name: W1MG_FX_Impact_9
       rect:
         serializedVersion: 2
-        x: 402
-        y: 5
-        width: 44
-        height: 48
+        x: 153
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +308,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d767e25114943d46ae531c5a4718c7c
+      spriteID: 597b2e90dfa381949b33b1d489705c38
       vertices: []
       indices: 
       edges: []
@@ -296,7 +316,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e7c56d81d9ccbde4d9f1eb3d6701d84c
+    spriteID: b5c3b296cbf716f418ae3e984cbd1970
     vertices: []
     indices: 
     edges: []
