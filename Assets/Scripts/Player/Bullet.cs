@@ -13,8 +13,11 @@ namespace Projectiles
     public GameObject effectPrefab;
     public Transform line;
 
+    [HideInInspector]
+    public Transform hitObject;
+
     private Rigidbody2D rigid;
-    private Vector3 start, end;
+    private Vector2 start, end;
 
     void Awake()
     {
@@ -28,17 +31,21 @@ namespace Projectiles
     // {
     //   line.rotation = Quaternion.LookRotation(rigid.velocity);
     // }
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter2D(Collision2D col)
     {
       end = transform.position;
 
       // Get bulletDirection
-      Vector3 bulletDir = end - start;
+      Vector2 bulletDir = end - start;
+
+      hitObject = col.transform;
 
       // Spawn a BulletHole on that contact point
-      GameObject clone = Instantiate(effectPrefab);
+      GameObject clone = Instantiate(effectPrefab, hitObject);
 
-      // Destroy self
+      RunEvent();
+
+      // Destroy self.
       Destroy(gameObject);
     }
     public override void Fire(Vector3 lineOrigin, Vector3 direction)
@@ -47,6 +54,15 @@ namespace Projectiles
       line.position = lineOrigin;
       // Set bullet flying in direction with speed
       rigid.AddForce(direction * speed, ForceMode2D.Impulse);
+    }
+    public void RunEvent()
+    {
+      IHealth health = hitObject.GetComponent<IHealth>();
+
+      if(health != null)
+      {
+        health.TakeDamage(damage);
+      }
     }
   }
 }

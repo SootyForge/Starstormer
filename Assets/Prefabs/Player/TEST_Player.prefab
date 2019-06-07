@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8526129241318731160}
   - component: {fileID: 2070084151675167873}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TEST_Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 8526129242174054471}
   - component: {fileID: 8526129242174054464}
   - component: {fileID: 5080914364569980904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TEST_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}

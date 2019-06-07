@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 7073931805035541129}
   - component: {fileID: 7073931805035541128}
   - component: {fileID: 7073931805035541135}
-  m_Layer: 0
+  - component: {fileID: 1329365522191146625}
+  - component: {fileID: 3620893778757575655}
+  m_Layer: 11
   m_Name: Hzd_01b_Asteroid_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,3 +101,48 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1329365522191146625
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7073931805035541134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2916666, y: 1.25}
+    newSize: {x: 1.9375, y: 1.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1, y: 1.1}
+  m_EdgeRadius: 0
+--- !u!114 &3620893778757575655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7073931805035541134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbaa199d38e63341918f9fe8cc15913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h:
+    health: 4
+    damage: 1
+    speed: 2
+  destroyFX: {fileID: 9039142157748431403, guid: 4e16e0f7343ce294484f9be43c423a2e,
+    type: 3}
+  pos: {x: 0, y: 0}

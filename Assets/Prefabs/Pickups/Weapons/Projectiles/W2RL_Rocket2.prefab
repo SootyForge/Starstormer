@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3821007326648501331}
   - component: {fileID: 8502516945337170232}
   - component: {fileID: 4016885406341231889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: W2RL_Rocket2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
