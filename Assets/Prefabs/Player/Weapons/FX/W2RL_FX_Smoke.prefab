@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4302555298094190201}
   - component: {fileID: 2385702010183252861}
   - component: {fileID: 9067290862805918420}
+  - component: {fileID: 9054146630190534087}
   m_Layer: 0
   m_Name: W2RL_FX_Smoke
   m_TagString: Untagged
@@ -99,3 +100,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9054146630190534087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791950255458407971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4725c74d5f81cb949b117ea2b952a4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

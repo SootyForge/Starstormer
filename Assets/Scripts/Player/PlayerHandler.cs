@@ -11,6 +11,7 @@ public class PlayerHandler : MonoBehaviour, IHealth
   [Header("Weapon")]
   public Weapon currentWeapon;
   public int currentWeaponIndex = 0;
+  public List<Weapon> weapons = new List<Weapon>();
 
   private PlayerControls player;
 
@@ -18,11 +19,11 @@ public class PlayerHandler : MonoBehaviour, IHealth
   {
     player = GetComponent<PlayerControls>();
   }
-  // void Start()
-  // {
-  //   // Select first one
-  //   SelectWeapon(0);
-  // }
+  void Start()
+  {
+    // Select first one
+    SelectWeapon(0);
+  }
   void FixedUpdate()
   {
     // If there is a weapon
@@ -40,36 +41,37 @@ public class PlayerHandler : MonoBehaviour, IHealth
       }
     }
   }
-  // void DisableAllWeapons()
-  // {
-  //   // // Loop through all weapons
-  //   // foreach (var item in weapons)
-  //   // {
-  //   //   // Disable each GameObject
-  //   //   item.gameObject.SetActive(false);
-  //   // }
-  // }
-  // void SelectWeapon(int index)
-  // {
-  //   // // Check if index is within bounds
-  //   // if (index >= 0 && index < weapons.Count)
-  //   // {
-  //   //   // Disable all weapons
-  //   //   DisableAllWeapons();
-  //   //   // Select currentWeapon
-  //   //   currentWeapon = weapons[index];
-  //   //   // Enable currentWeapon
-  //   //   currentWeapon.gameObject.SetActive(true);
-  //   //   // Update currentWeaponIndex
-  //   //   currentWeaponIndex = index;
-  //   // }
-  // }
+  void DisableAllWeapons()
+  {
+    // Loop through all weapons
+    foreach (var item in weapons)
+    {
+      // Disable each GameObject
+      item.gameObject.SetActive(false);
+    }
+  }
+  void SelectWeapon(int index)
+  {
+    // Check if index is within bounds
+    if (index >= 0 && index < weapons.Count)
+    {
+      // Disable all weapons
+      DisableAllWeapons();
+      // Select currentWeapon
+      currentWeapon = weapons[index];
+      // Enable currentWeapon
+      currentWeapon.gameObject.SetActive(true);
+      // Update currentWeaponIndex
+      currentWeaponIndex = index;
+    }
+  }
 
   public void TakeDamage(int damage)
   {
     health -= damage;
     if (health <= 0)
     {
+      gameObject.SetActive(false);
       print("Ya dead!");
     }
   }

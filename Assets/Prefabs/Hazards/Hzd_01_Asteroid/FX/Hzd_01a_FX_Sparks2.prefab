@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5341802584621656659}
   - component: {fileID: 8147651137174825845}
   - component: {fileID: 5499220213271723470}
+  - component: {fileID: 2463189726005672050}
   m_Layer: 0
   m_Name: Hzd_01a_FX_Sparks2
   m_TagString: Untagged
@@ -99,3 +100,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2463189726005672050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2529856339631541899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4725c74d5f81cb949b117ea2b952a4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

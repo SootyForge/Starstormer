@@ -43,7 +43,7 @@ namespace Projectiles
       // Spawn a BulletHole on that contact point
       GameObject clone = Instantiate(effectPrefab, hitObject);
 
-      RunEvent();
+      DealDamage();
 
       // Destroy self.
       Destroy(gameObject);
@@ -55,7 +55,7 @@ namespace Projectiles
       // Set bullet flying in direction with speed
       rigid.AddForce(direction * speed, ForceMode2D.Impulse);
     }
-    public void RunEvent()
+    public void DealDamage()
     {
       IHealth health = hitObject.GetComponent<IHealth>();
 

@@ -8,9 +8,22 @@ public class Hazard : MonoBehaviour, IHealth
   public GameObject destroyFX;
   public Vector2 pos;
 
+  private Transform hitObject;
+
   void Awake()
   {
     pos = transform.position;
+  }
+
+  void OnCollisionEnter2D(Collision2D col)
+  {
+    if (col.gameObject.layer == 9)
+    {
+      hitObject = col.transform;
+      DealDamage();
+      GameObject clone = Instantiate(destroyFX, hitObject);
+      Destroy(gameObject); 
+    }
   }
 
   public void Update()
@@ -29,8 +42,19 @@ public class Hazard : MonoBehaviour, IHealth
     h.health -= damage;
     if (h.health <= 0)
     {
-      GameObject clone = Instantiate(destroyFX);
+      GameObject clone = Instantiate(destroyFX, transform.position, transform.rotation);
+      destroyFX.transform.position = gameObject.transform.position;
       Destroy(gameObject);
+    }
+  }
+
+  public void DealDamage()
+  {
+    IHealth health = hitObject.GetComponent<IHealth>();
+
+    if (health != null)
+    {
+      health.TakeDamage(h.damage);
     }
   }
 }
