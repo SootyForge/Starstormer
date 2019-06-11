@@ -46,6 +46,12 @@ namespace Projectiles
       // Destroy self.
       Destroy(gameObject);
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+      Destroy(gameObject);
+    }
+
     public override void Fire(Vector3 lineOrigin, Vector3 direction)
     {
       // Set line position to origin

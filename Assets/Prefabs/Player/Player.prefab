@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673cf9f5f895f1d48b21444f8ec648f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 12
 --- !u!114 &5080914364569980904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +209,4 @@ MonoBehaviour:
   health: 5
   currentWeapon: {fileID: 2070084151675167873}
   currentWeaponIndex: 0
+  weapons: []

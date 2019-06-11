@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Hzd_01c_Asteroid_L
   m_EditorClassIdentifier: 
   stat:
-    health: 40
-    damage: 2
+    health: 30
+    damage: 3
     speed: 2
