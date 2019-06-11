@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2595196481776250874}
   - component: {fileID: 7415622893016817924}
   - component: {fileID: 2731448581863306878}
+  - component: {fileID: 2944868272015579604}
   m_Layer: 0
   m_Name: Hzd_01a_Asteroid_S1
   m_TagString: Untagged
@@ -126,3 +127,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46875, y: 0.46875}
   m_EdgeRadius: 0
+--- !u!114 &2944868272015579604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380405155195246311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbaa199d38e63341918f9fe8cc15913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h: {fileID: 11400000, guid: b1aeb62940fd79f4f88c5121245eae64, type: 2}
+  destroyFX: {fileID: 9039142157748431403, guid: 4e16e0f7343ce294484f9be43c423a2e,
+    type: 3}
+  pos: {x: 0, y: 0}

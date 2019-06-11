@@ -139,10 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bbaa199d38e63341918f9fe8cc15913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  h:
-    health: 5
-    damage: 1
-    speed: 6
+  h: {fileID: 11400000, guid: 14ea65aa2bd58b94cb8d081db9d70975, type: 2}
   destroyFX: {fileID: 1106272683117162780, guid: 67f6bdeb9d883434f8c9eeab88cca55c,
     type: 3}
   pos: {x: 0, y: 0}

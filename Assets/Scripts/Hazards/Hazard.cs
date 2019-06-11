@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Hazard : MonoBehaviour, IHealth
 {
-  public HazardProperties h;
+  public HazardHandler h;
   public GameObject destroyFX;
   public Vector2 pos;
 
+  private int health, damage;
+  private float speed;
   private Transform hitObject;
 
   void Awake()
   {
     pos = transform.position;
+    health = h.stat.health;
+    damage = h.stat.damage;
+    speed = h.stat.speed;
   }
 
   void OnCollisionEnter2D(Collision2D col)
@@ -28,7 +33,7 @@ public class Hazard : MonoBehaviour, IHealth
 
   public void Update()
   {
-    pos += Vector2.left * h.speed * Time.deltaTime;
+    pos += Vector2.left * speed * Time.deltaTime;
     transform.position = pos;
   }
 
@@ -39,8 +44,8 @@ public class Hazard : MonoBehaviour, IHealth
 
   public void TakeDamage(int damage)
   {
-    h.health -= damage;
-    if (h.health <= 0)
+   health -= damage;
+    if (health <= 0)
     {
       GameObject clone = Instantiate(destroyFX, transform.position, transform.rotation);
       destroyFX.transform.position = gameObject.transform.position;
@@ -54,7 +59,7 @@ public class Hazard : MonoBehaviour, IHealth
 
     if (health != null)
     {
-      health.TakeDamage(h.damage);
+      health.TakeDamage(damage);
     }
   }
 }

@@ -11,13 +11,13 @@ namespace Projectiles
   {
     public float speed = 50f;
     public GameObject effectPrefab;
-    public Transform line;
+    public Transform line, effectSpawn;
 
     [HideInInspector]
     public Transform hitObject;
 
     private Rigidbody2D rigid;
-    private Vector2 start, end;
+    private Vector2 start, end, effectPos;
 
     void Awake()
     {
@@ -27,13 +27,11 @@ namespace Projectiles
     {
       start = transform.position;
     }
-    // void Update()
-    // {
-    //   line.rotation = Quaternion.LookRotation(rigid.velocity);
-    // }
+    
     void OnCollisionEnter2D(Collision2D col)
     {
       end = transform.position;
+      effectPos = effectSpawn.position;
 
       // Get bulletDirection
       Vector2 bulletDir = end - start;
@@ -41,7 +39,7 @@ namespace Projectiles
       hitObject = col.transform;
 
       // Spawn a BulletHole on that contact point
-      GameObject clone = Instantiate(effectPrefab, hitObject);
+      GameObject clone = Instantiate(effectPrefab, effectPos, transform.rotation);
 
       DealDamage();
 

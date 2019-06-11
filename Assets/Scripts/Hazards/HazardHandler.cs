@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Hazard")]
 public class HazardHandler : ScriptableObject
 {
-  public HazardProperties properties;
+  public HazardProperties stat;
 }
