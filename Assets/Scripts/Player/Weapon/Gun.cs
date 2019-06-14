@@ -6,6 +6,7 @@ using Projectiles;
 
 public class Gun : Weapon
 {
+  public bool isEmpty = true;
   public int currentAmmo = 0;
   public Transform shotOrigin;
   public GameObject projectilePrefab;
@@ -14,12 +15,20 @@ public class Gun : Weapon
 
   public override void Attack()
   {
-    // Reset timer & canShoot to false
-    currentAmmo--;
-    // Auto-Reload
-    if (currentAmmo == 0)
+    if (!isEmpty)
     {
+      // Reset timer & canShoot to false
+      currentAmmo--; 
+    }
+    // Auto-Reload
+    if (currentAmmo <= 0)
+    {
+      isEmpty = true;
       // Switch
+    }
+    else
+    {
+      isEmpty = false;
     }
     // Get some values
     Camera attachedCamera = Camera.main; // Note (Manny): Pass the reference into weapon somehow

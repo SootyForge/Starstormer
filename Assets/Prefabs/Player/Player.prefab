@@ -46,7 +46,9 @@ MonoBehaviour:
   damage: 1
   attackRate: 10
   canShoot: 0
-  currentAmmo: 61
+  wep: {fileID: 11400000, guid: adbd7a74767584341a5cedca819b52db, type: 2}
+  isEmpty: 1
+  currentAmmo: 0
   shotOrigin: {fileID: 8526129241318731160}
   projectilePrefab: {fileID: 3155488324244108822, guid: 00185ec9d94d8bf4992e86b938673b53,
     type: 3}

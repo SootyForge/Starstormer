@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
-  public int damage = 10;
+  public int damage = 1;
   public float attackRate = 10f;
 
   [HideInInspector] public bool canShoot = false;

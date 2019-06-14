@@ -24,12 +24,21 @@ public class PlayerHandler : MonoBehaviour, IHealth
     // Select first one
     SelectWeapon(0);
   }
+
+  void OnTriggerEnter2D(Collider2D col)
+  {
+    if (col.tag == "Weapon")
+    {
+
+    }
+  }
+
   void FixedUpdate()
   {
     // If there is a weapon
     if (currentWeapon)
     {
-      bool fire1 = Input.GetButton("Fire1");
+      bool fire1 = Input.GetButtonDown("Fire1");
       if (fire1)
       {
         // Check if weapon can shoot

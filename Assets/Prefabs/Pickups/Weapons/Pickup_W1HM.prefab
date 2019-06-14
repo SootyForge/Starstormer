@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6910754654016011865}
   - component: {fileID: 6910754654016011870}
   - component: {fileID: 6910754654016011871}
+  - component: {fileID: 5837756340490279571}
   m_Layer: 12
   m_Name: Pickup_W1HM
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +107,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &5837756340490279571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910754654016011868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7475f50b2fb698c4a92cfcc99e68457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wep: {fileID: 11400000, guid: 881d55251af54d24d9932bf2dc85ea63, type: 2}
+  damage: 1
+  attackRate: 6
+  canShoot: 0
+  isEmpty: 1
+  currentAmmo: 0
+  shotOrigin: {fileID: 0}
+  projectilePrefab: {fileID: 8985146236516426139, guid: 68c19bc1ffd31cd40814ecabb1dc88a8,
+    type: 3}
