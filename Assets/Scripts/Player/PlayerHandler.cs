@@ -10,8 +10,8 @@ public class PlayerHandler : MonoBehaviour, IHealth
 
   [Header("Weapon")]
   public Weapon currentWeapon;
-  public int currentWeaponIndex = 0;
-  public List<Weapon> weapons = new List<Weapon>();
+  //public int currentWeaponIndex = 0;
+  //public List<Weapon> weapons = new List<Weapon>();
 
   private PlayerControls player;
 
@@ -21,8 +21,8 @@ public class PlayerHandler : MonoBehaviour, IHealth
   }
   void Start()
   {
-    // Select first one
-    SelectWeapon(0);
+    //// Select first one
+    //SelectWeapon(0);
   }
 
   void OnTriggerEnter2D(Collider2D col)
@@ -33,46 +33,60 @@ public class PlayerHandler : MonoBehaviour, IHealth
     }
   }
 
-  void FixedUpdate()
+  void LateUpdate()
   {
     // If there is a weapon
     if (currentWeapon)
     {
-      bool fire1 = Input.GetButtonDown("Fire1");
-      if (fire1)
+      // Check fire mode.
+      if (currentWeapon.isAuto == false)
       {
-        // Check if weapon can shoot
-        if (currentWeapon.canShoot)
+        bool fire1 = Input.GetButtonDown("Fire1");
+        if (fire1)
         {
-          // Shoot the weapon
-          currentWeapon.Attack();
+          // Check if weapon can shoot
+          if (currentWeapon.canShoot)
+          {
+            // Shoot the weapon
+            currentWeapon.Attack();
+          }
+        }
+      }
+
+      else
+      {
+        bool fire2 = Input.GetButton("Fire1");
+        if (fire2)
+        {
+          // Check if weapon can shoot
+          if (currentWeapon.canShoot)
+          {
+            // Shoot the weapon
+            currentWeapon.Attack();
+          }
         }
       }
     }
   }
   void DisableAllWeapons()
   {
-    // Loop through all weapons
-    foreach (var item in weapons)
-    {
-      // Disable each GameObject
-      item.gameObject.SetActive(false);
-    }
+    // Disable GameObject
+    currentWeapon.gameObject.SetActive(false);
   }
-  void SelectWeapon(int index)
+  void SwitchWeapon(int index)
   {
-    // Check if index is within bounds
-    if (index >= 0 && index < weapons.Count)
-    {
-      // Disable all weapons
-      DisableAllWeapons();
-      // Select currentWeapon
-      currentWeapon = weapons[index];
-      // Enable currentWeapon
-      currentWeapon.gameObject.SetActive(true);
-      // Update currentWeaponIndex
-      currentWeaponIndex = index;
-    }
+    //// Check if index is within bounds
+    //if (index >= 0 && index < weapons.Count)
+    //{
+    //  // Disable all weapons
+    //  DisableAllWeapons();
+    //  // Select currentWeapon
+    //  currentWeapon = weapons[index];
+    //  // Enable currentWeapon
+    //  currentWeapon.gameObject.SetActive(true);
+    //  // Update currentWeaponIndex
+    //  currentWeaponIndex = index;
+    //}
   }
 
   public void TakeDamage(int damage)

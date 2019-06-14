@@ -16,6 +16,7 @@ MonoBehaviour:
     damage: 1
     attackRate: 10
     isEmpty: 1
+    isAuto: 0
     ammo: 0
     projectile: {fileID: 3155488324244108822, guid: 00185ec9d94d8bf4992e86b938673b53,
       type: 3}

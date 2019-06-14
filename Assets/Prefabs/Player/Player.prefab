@@ -46,7 +46,7 @@ MonoBehaviour:
   damage: 1
   attackRate: 10
   canShoot: 0
-  wep: {fileID: 11400000, guid: adbd7a74767584341a5cedca819b52db, type: 2}
+  attackTimer: 0
   isEmpty: 1
   currentAmmo: 0
   shotOrigin: {fileID: 8526129241318731160}

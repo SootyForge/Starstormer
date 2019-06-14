@@ -6,7 +6,7 @@ public class WeaponProperties
 {
   public int damage;
   public float attackRate;
-  public bool isEmpty;
+  public bool isEmpty, isAuto;
   public int ammo;
   public GameObject projectile;
 }
