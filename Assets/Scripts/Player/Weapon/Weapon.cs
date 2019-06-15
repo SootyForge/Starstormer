@@ -24,13 +24,12 @@ public class Weapon : MonoBehaviour
   // Set stats to default wep.
   void Start()
   {
-    //wep = GetComponent<WeaponHandler>();
-    damage = wep.stat.damage;
-    attackRate = wep.stat.attackRate;
-    currentAmmo = wep.stat.ammo;
-    isEmpty = wep.stat.isEmpty;
-    isAuto = wep.stat.isAuto;
-    projectilePrefab = wep.stat.projectile;
+    if (wep == null)
+    {
+      wep = Resources.Load<WeaponHandler>("Data/Weapons/P1S1");
+    }
+
+    SetWeapon();
   }
 
   // Update is called once per frame
@@ -49,10 +48,11 @@ public class Weapon : MonoBehaviour
   public virtual void Attack()
   {
     // Auto-Reload
-    if (currentAmmo <= 0)
+    if (currentAmmo <= 1)
     {
-      isEmpty = true;
+      wep = Resources.Load<WeaponHandler>("Data/Weapons/P1S1");
       // Switch
+      SetWeapon();
     }
     else
     {
@@ -76,5 +76,15 @@ public class Weapon : MonoBehaviour
     GameObject clone = Instantiate(projectilePrefab, camTransform.position, camTransform.rotation);
     Projectile projectile = clone.GetComponent<Projectile>();
     projectile.Fire(lineOrigin, direction);
+  }
+
+  public void SetWeapon()
+  {
+    damage = wep.stat.damage;
+    attackRate = wep.stat.attackRate;
+    isEmpty = wep.stat.isEmpty;
+    isAuto = wep.stat.isAuto;
+    currentAmmo = wep.stat.ammo;
+    projectilePrefab = wep.stat.projectile;
   }
 }

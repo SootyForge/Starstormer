@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5632575188834308986}
   - component: {fileID: 5160518920921404096}
   - component: {fileID: 7740053272607560037}
+  - component: {fileID: 3257080586293786478}
   m_Layer: 12
   m_Name: Pickup_W2RL
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +107,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &3257080586293786478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8210753739281572279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2c6de97aadf9f4e984d18dfeed5746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wep: {fileID: 11400000, guid: 84d5d816439ed4a4eb946a9a7e2ff7c1, type: 2}

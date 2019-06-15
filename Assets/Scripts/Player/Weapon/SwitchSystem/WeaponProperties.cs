@@ -8,5 +8,7 @@ public class WeaponProperties
   public float attackRate;
   public bool isEmpty, isAuto;
   public int ammo;
+  public int addAmmo;
   public GameObject projectile;
+  public Sprite shipSkin;
 }

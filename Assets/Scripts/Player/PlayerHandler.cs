@@ -10,35 +10,55 @@ public class PlayerHandler : MonoBehaviour, IHealth
 
   [Header("Weapon")]
   public Weapon currentWeapon;
-  //public int currentWeaponIndex = 0;
-  //public List<Weapon> weapons = new List<Weapon>();
+  public Sprite ship;
+  private SpriteRenderer rend;
 
   private PlayerControls player;
 
   void Awake()
   {
     player = GetComponent<PlayerControls>();
+    rend = GetComponent<SpriteRenderer>();
   }
   void Start()
   {
-    //// Select first one
-    //SelectWeapon(0);
+    // // Select first one
+    // SelectWeapon(0);
   }
 
   void OnTriggerEnter2D(Collider2D col)
   {
+    // Update currentWeapon with newWep's data (and change player's ship).
+    #region Weapon Pickups
     if (col.tag == "Weapon")
     {
+      PickupWeapon newWep = col.GetComponent<PickupWeapon>();
 
+      // If it's a different weapon
+      if (currentWeapon.wep != newWep.wep)
+      {
+        // Switch stuff.
+        currentWeapon.wep = newWep.wep;
+        currentWeapon.SetWeapon();
+        rend.sprite = newWep.wep.stat.shipSkin;
+      }
+      else
+      {
+        // Give more ammo.
+        currentWeapon.currentAmmo += newWep.wep.stat.addAmmo; // It's better than adding Mathf.RoundToInt(ammo * 0.75f).
+      }
+
+      Destroy(col.gameObject);
     }
+    #endregion
   }
 
   void LateUpdate()
   {
-    // If there is a weapon
+    // If there is a weapon.
     if (currentWeapon)
     {
-      // Check fire mode.
+      // Check fire mode (Hold/Click LMB).
       if (currentWeapon.isAuto == false)
       {
         bool fire1 = Input.GetButtonDown("Fire1");
@@ -68,26 +88,6 @@ public class PlayerHandler : MonoBehaviour, IHealth
       }
     }
   }
-  void DisableAllWeapons()
-  {
-    // Disable GameObject
-    currentWeapon.gameObject.SetActive(false);
-  }
-  void SwitchWeapon(int index)
-  {
-    //// Check if index is within bounds
-    //if (index >= 0 && index < weapons.Count)
-    //{
-    //  // Disable all weapons
-    //  DisableAllWeapons();
-    //  // Select currentWeapon
-    //  currentWeapon = weapons[index];
-    //  // Enable currentWeapon
-    //  currentWeapon.gameObject.SetActive(true);
-    //  // Update currentWeaponIndex
-    //  currentWeaponIndex = index;
-    //}
-  }
 
   public void TakeDamage(int damage)
   {
@@ -103,3 +103,29 @@ public class PlayerHandler : MonoBehaviour, IHealth
     health += heal;
   }
 }
+
+#region Garbage (Weapon switch system)
+// public int currentWeaponIndex = 0;
+// public List<Weapon> weapons = new List<Weapon>();
+// 
+// void DisableAllWeapons()
+// {
+//   // Disable GameObject
+//   currentWeapon.gameObject.SetActive(false);
+// }
+// void SwitchWeapon(int index)
+// {
+//   // Check if index is within bounds
+//   if (index >= 0 && index < weapons.Count)
+//   {
+//     // Disable all weapons
+//     DisableAllWeapons();
+//     // Select currentWeapon
+//     currentWeapon = weapons[index];
+//     // Enable currentWeapon
+//     currentWeapon.gameObject.SetActive(true);
+//     // Update currentWeaponIndex
+//     currentWeaponIndex = index;
+//   }
+// } 
+#endregion

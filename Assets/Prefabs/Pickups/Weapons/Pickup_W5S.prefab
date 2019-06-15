@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7003322526459839390}
   - component: {fileID: 1601678351521513397}
   - component: {fileID: 7344577425668816081}
+  - component: {fileID: 5769381555967725470}
   m_Layer: 12
   m_Name: Pickup_W5S
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +107,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &5769381555967725470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5222626752831885770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2c6de97aadf9f4e984d18dfeed5746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wep: {fileID: 11400000, guid: 881d55251af54d24d9932bf2dc85ea63, type: 2}
