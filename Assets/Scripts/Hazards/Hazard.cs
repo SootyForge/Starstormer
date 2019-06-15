@@ -22,12 +22,17 @@ public class Hazard : MonoBehaviour, IHealth
 
   void OnCollisionEnter2D(Collision2D col)
   {
-    if (col.gameObject.layer == 9)
+    if (col.gameObject.tag == "Player")
     {
       hitObject = col.transform;
       DealDamage();
-      GameObject clone = Instantiate(destroyFX, hitObject);
-      Destroy(gameObject); 
+      GameObject clone = Instantiate(destroyFX);
+      clone.transform.position = transform.position;
+      Destroy(gameObject);
+    }
+    if (col.gameObject)
+    {
+      Destroy(gameObject);
     }
   }
 

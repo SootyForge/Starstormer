@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
   public GameObject[] hzdZone;
   public float zoneTrigger = 2f;
-  private float zoneTimer = 20f;
+  public float zoneTimer = 20f;
 
   void Update()
   {

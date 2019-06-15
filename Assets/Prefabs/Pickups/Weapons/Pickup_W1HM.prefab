@@ -120,3 +120,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wep: {fileID: 11400000, guid: 881d55251af54d24d9932bf2dc85ea63, type: 2}
+  pos: {x: 0, y: 0}
+  speed: 8
