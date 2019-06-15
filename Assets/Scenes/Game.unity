@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -611,26 +611,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5080914364569980904, guid: 0bdc7e20055a5c04d923123ab04279f6,
-        type: 3}
-      propertyPath: currentWeapon
-      value: 
-      objectReference: {fileID: 8526129241318731168}
-    - target: {fileID: 2070084151675167873, guid: 0bdc7e20055a5c04d923123ab04279f6,
-        type: 3}
-      propertyPath: currentAmmo
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070084151675167873, guid: 0bdc7e20055a5c04d923123ab04279f6,
-        type: 3}
-      propertyPath: attackRate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070084151675167873, guid: 0bdc7e20055a5c04d923123ab04279f6,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bdc7e20055a5c04d923123ab04279f6, type: 3}
 --- !u!1001 &6637327658156627615
@@ -702,36 +682,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ea88760e8dfe154a9f4675d6c307c55, type: 3}
---- !u!4 &8526129241318731160 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8526129241318731160, guid: 0bdc7e20055a5c04d923123ab04279f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1421939531}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8526129241318731167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8526129241318731167, guid: 0bdc7e20055a5c04d923123ab04279f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1421939531}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8526129241318731168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8526129241318731167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21804f926a8c14b478eedb5c068fe8d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wep: {fileID: 11400000, guid: 881d55251af54d24d9932bf2dc85ea63, type: 2}
-  damage: 0
-  attackRate: 0
-  isEmpty: 0
-  isAuto: 0
-  currentAmmo: 0
-  shotOrigin: {fileID: 8526129241318731160}
-  projectilePrefab: {fileID: 0}
-  canShoot: 0

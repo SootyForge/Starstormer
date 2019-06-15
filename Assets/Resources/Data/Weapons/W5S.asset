@@ -16,5 +16,9 @@ MonoBehaviour:
     damage: 20
     attackRate: 3
     isEmpty: 0
+    isAuto: 0
     ammo: 30
-    projectile: {fileID: 0}
+    addAmmo: 15
+    projectile: {fileID: 5388754085784985032, guid: 0f6bcb4a42ff3934c915f11c662dbdb9,
+      type: 3}
+    shipSkin: {fileID: 21300000, guid: 13772eb88d021264ea8efb495371df9a, type: 3}
