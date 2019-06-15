@@ -138,7 +138,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 13772eb88d021264ea8efb495371df9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b51826ecb1b5c304cb2562248d40fad1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -223,3 +223,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   currentWeapon: {fileID: 8526129241318731168}
+  ship: {fileID: 0}
