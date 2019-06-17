@@ -42,7 +42,7 @@ namespace Projectiles
       GameObject clone = Instantiate(effectPrefab, effectPos, transform.rotation);
 
       DealDamage();
-
+      GameManager.Instance.IncreaseScore(100);
       // Destroy self.
       Destroy(gameObject);
     }

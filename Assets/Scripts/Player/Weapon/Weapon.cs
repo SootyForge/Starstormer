@@ -68,11 +68,11 @@ public class Weapon : MonoBehaviour
       currentAmmo--;
     }
     // Get some values
-    Camera attachedCamera = Camera.main; // Note (Manny): Pass the reference into weapon somehow
+    Camera attachedCamera = Camera.main;
     Transform camTransform = attachedCamera.transform; // Shortening Camera's Transform to 'camTransform'
     Vector3 lineOrigin = shotOrigin.position; // Where the bullet line starts
     Vector3 direction = camTransform.right; // Forward direction of camera
-                                            // Spawn Bullet
+    // Spawn Bullet
     GameObject clone = Instantiate(projectilePrefab, camTransform.position, camTransform.rotation);
     Projectile projectile = clone.GetComponent<Projectile>();
     projectile.Fire(lineOrigin, direction);
