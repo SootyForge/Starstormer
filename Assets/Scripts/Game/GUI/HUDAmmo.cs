@@ -4,26 +4,26 @@ using UnityEngine;
 
 using UnityEngine.UI;
 
-public class GameScore : MonoBehaviour
+public class HUDAmmo : MonoBehaviour
 {
-  public Sprite[] numbers; // Digits
-  public GameObject scoreTextPrefab; // Score Prefab text element to create
+  public Sprite[] numbers; // Digits for UI.
+  public GameObject ammoTextPrefab; // Ammo Prefab text element to create
   public Vector3 standbyPos = new Vector3(-15, 15); // Position offscreen for standby
-  public int maxDigits = 7; // The amount of digits to store offscreen for reuse
+  public int maxDigits = 3; // The amount of digits to store offscreen for reuse
 
-  private GameObject[] scoreTextPool;
+  private GameObject[] ammoTextPool;
   private int[] digits;
 
   // Use this for initialization
   void Start()
   {
-    // Allocate memory for the score text pool
-    scoreTextPool = new GameObject[maxDigits];
+    // Allocate memory for the ammo text pool
+    ammoTextPool = new GameObject[maxDigits];
     // Loop through all available digits
     for (int i = 0; i < maxDigits; i++)
     {
       // Create a new gameObject offscreen
-      GameObject clone = Instantiate(scoreTextPrefab, standbyPos, Quaternion.identity);
+      GameObject clone = Instantiate(ammoTextPrefab, standbyPos, Quaternion.identity);
       // Get the Image component attached to the clone
       Image img = clone.GetComponent<Image>();
       // Set sprite to corresponding number sprite
@@ -33,27 +33,27 @@ public class GameScore : MonoBehaviour
       // Set name of text to index
       clone.name = i.ToString();
       // Add it to pool
-      scoreTextPool[i] = clone;
+      ammoTextPool[i] = clone;
     }
 
-    // Subscribe to GameManager's added score event
-    GameManager.Instance.scoreAdded += UpdateScore;
+    // Subscribe to GameManager's added ammo event
+    GameManager.Instance.ammoDisplay += UpdateAmmo;
 
-    // Update score to start on zero
-    UpdateScore(0);
+    // Update ammo to start on zero
+    UpdateAmmo(0);
   }
 
-  public void UpdateScore(int score)
+  public void UpdateAmmo(int ammo)
   {
     // Convert score into array of digits
-    int[] digits = GetDigits(score);
+    int[] digits = GetDigits(ammo);
     // Loop through all digits
     for (int i = 0; i < digits.Length; i++)
     {
       // Get value of each digit
       int value = digits[i];
       // Get corresponding text element in pool
-      GameObject textElement = scoreTextPool[i];
+      GameObject textElement = ammoTextPool[i];
       // Get image component attached to it
       Image img = textElement.GetComponent<Image>();
       // Assign sprite to number using value
@@ -63,10 +63,10 @@ public class GameScore : MonoBehaviour
     }
 
     // Loop through all remaining text elements in the pool
-    for (int i = digits.Length; i < scoreTextPool.Length; i++)
+    for (int i = digits.Length; i < ammoTextPool.Length; i++)
     {
       // Deactivate that element
-      scoreTextPool[i].SetActive(false);
+      ammoTextPool[i].SetActive(false);
     }
   }
 

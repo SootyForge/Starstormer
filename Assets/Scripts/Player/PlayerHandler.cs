@@ -28,29 +28,8 @@ public class PlayerHandler : MonoBehaviour, IHealth
 
   void OnTriggerEnter2D(Collider2D col)
   {
-    // Update currentWeapon with newWep's data (and change player's ship).
-    #region Weapon Pickups
-    if (col.tag == "Weapon")
-    {
-      PickupWeapon newWep = col.GetComponent<PickupWeapon>();
-
-      // If it's a different weapon
-      if (currentWeapon.wep != newWep.wep)
-      {
-        // Switch stuff.
-        currentWeapon.wep = newWep.wep;
-        currentWeapon.SetWeapon();
-        rend.sprite = newWep.wep.stat.shipSkin;
-      }
-      else
-      {
-        // Give more ammo.
-        currentWeapon.currentAmmo += newWep.wep.stat.addAmmo; // It's better than adding Mathf.RoundToInt(ammo * 0.75f).
-      }
-
-      Destroy(col.gameObject);
-    }
-    #endregion
+    // Update currentWeapon with newWep's data.
+    UpdateWeapon(col);
   }
 
   void LateUpdate()
@@ -101,6 +80,31 @@ public class PlayerHandler : MonoBehaviour, IHealth
   public void Heal(int heal)
   {
     health += heal;
+  }
+
+  public void UpdateWeapon(Collider2D col)
+  {
+    if (col.tag == "Weapon")
+    {
+      PickupWeapon newWep = col.GetComponent<PickupWeapon>();
+
+      // Different weapon? Switch stuff.
+      if (currentWeapon.wep != newWep.wep)
+      {
+        currentWeapon.wep = newWep.wep;
+        currentWeapon.SetWeapon();
+        rend.sprite = newWep.wep.stat.shipSkin; // Player's ship sprite.
+      }
+      // Same Weapon? Give more ammo.
+      else
+      {
+        currentWeapon.currentAmmo += newWep.wep.stat.addAmmo; // It's better than adding Mathf.RoundToInt(ammo * 0.75f).
+      }
+
+      GameManager.Instance.AmmoCount(currentWeapon.currentAmmo);
+
+      Destroy(col.gameObject);
+    }
   }
 }
 

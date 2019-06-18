@@ -67,6 +67,9 @@ public class Weapon : MonoBehaviour
       // Reset timer & canShoot to false
       currentAmmo--;
     }
+
+    GameManager.Instance.AmmoCount(currentAmmo);
+
     // Get some values
     Camera attachedCamera = Camera.main;
     Transform camTransform = attachedCamera.transform; // Shortening Camera's Transform to 'camTransform'

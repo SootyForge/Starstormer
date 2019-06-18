@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stat:
     damage: 1
-    attackRate: 8
+    attackRate: 15
     isEmpty: 0
     isAuto: 1
     ammo: 200
