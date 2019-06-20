@@ -31,21 +31,28 @@ public class GameManager : MonoBehaviour
 
   public void IncreaseScore(int points)
   {
-    // The bird cant score if there is a game over
+    // Can't score if there is a game over.
     if (gameOver)
     {
-      // Exit the function
       return;
     }
 
-    // Increase the score
+    // Increase score.
     score += points;
 
-    // If there is a function subscribed
+    // If there is a function subscribed.
     if (scoreAdded != null)
     {
-      // Call an event to state that a score has been added
-      scoreAdded.Invoke(score);
+      if (score < 9999999)
+      {
+        // Add score to scoreAdded callback.
+        scoreAdded.Invoke(score);
+      }
+      else
+      {
+        // Clamp score display.
+        scoreAdded(9999999);
+      }
     }
   }
 

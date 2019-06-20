@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerHandler : MonoBehaviour, IHealth
 {
   [Header("Stats")]
+  public int maxHealth = 5;
   public int health = 5;
 
   [Header("Weapon")]
@@ -98,7 +99,13 @@ public class PlayerHandler : MonoBehaviour, IHealth
       // Same Weapon? Give more ammo.
       else
       {
-        currentWeapon.currentAmmo += newWep.wep.stat.addAmmo; // It's better than adding Mathf.RoundToInt(ammo * 0.75f).
+        currentWeapon.currentAmmo += newWep.wep.stat.addAmmo; // It's better than adding Mathf.RoundToInt(ammo * 0.75f). 
+
+        // Clamp max ammo (prevents out of range for ammo count.
+        if (currentWeapon.currentAmmo > 999)
+        {
+          currentWeapon.currentAmmo = 999;
+        }
       }
 
       GameManager.Instance.AmmoCount(currentWeapon.currentAmmo);
